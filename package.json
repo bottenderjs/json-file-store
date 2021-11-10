@@ -1,11 +1,12 @@
 {
-  "name": "jfs",
+  "name": "@bottender/jfs",
   "version": "0.3.0",
   "main": "./Store",
+  "types": "./index.d.ts",
   "description": "A simple JSON file store",
   "author": "Markus Kohlhase <mail@markus-kohlhase.de>",
-  "homepage": "http://github.com/flosse/json-file-store",
-  "bugs": "http://github.com/flosse/json-file-store/issues",
+  "homepage": "http://github.com/bottenderjs/json-file-store",
+  "bugs": "http://github.com/bottenderjs/json-file-store/issues",
   "license": "MIT",
   "engines": {
     "node": ">=12"
@@ -27,15 +28,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/flosse/json-file-store.git"
+    "url": "git://github.com/bottenderjs/json-file-store.git"
   },
-  "maintainers": [
-    {
-      "name": "Markus Kohlhase",
-      "email": "mail@markus-kohlhase.de",
-      "web": "http://github.com/flosse/"
-    }
-  ],
   "scripts": {
     "lint": "echo \"WARN: no linting process specified\"",
     "build": "babel Store.es6.js -o Store.js && babel Store.spec.es6.js -o Store.spec.js",
