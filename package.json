@@ -1,6 +1,6 @@
 {
   "name": "@bottender/jfs",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "./Store",
   "types": "./index.d.ts",
   "description": "A simple JSON file store",
